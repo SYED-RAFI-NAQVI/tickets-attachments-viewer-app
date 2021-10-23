@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+  background-color: #f5f7f9;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.fw-widget-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 10px;
+  /* border-radius: 10px; */
+  width: 90%;
+  border: 1px solid #fff;
+  margin: auto;
+}
+
+.card:hover {
+  border: 1px solid #12344d;
+}
+
+.attachment-details-name > p {
+  margin: 0px;
+}

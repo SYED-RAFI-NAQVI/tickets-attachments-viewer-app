@@ -1,0 +1,43 @@
+body {
+  background-color: #fff;
+}
+
+.card {
+  padding: 10px;
+  width: 98%;
+  margin: auto;
+}
+
+.attachment-details-name {
+  background-color: #f5f7f9;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.attachment-details-name:hover {
+  border: 1px solid #12344d;
+}
+
+.attachment-details-name > div > p {
+  margin: 0px;
+}
+
+.attachment-details-name:hover > div {
+  mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(50%, rgba(255, 255, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
+
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(50%, rgba(255, 255, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
+}
